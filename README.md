@@ -2,10 +2,6 @@
 
 A crypto price tracker app with coin value conversion from USD to EUR and INR. It is a basic application made with react native to track the price flow of crypto currencies in the stock market
 
-# Download for Android 
-
-<a href="https://expo.dev/accounts/swastik007/projects/CoinFlow/builds/5bd8bafd-a078-45c9-9a65-d799cf2e1e4a">install Coinflow from this link</a>
-
 # Images
 
 ![coinflow_main](https://github.com/swastik-bose007/CoinFlow/assets/98341839/6ba29f3a-18b8-4be9-a333-c083f5e34dd8)
