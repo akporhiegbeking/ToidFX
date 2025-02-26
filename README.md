@@ -50,16 +50,3 @@ If you have any questions or concerns regarding this Privacy Policy, please cont
 
 📩 **kingkenamu@gmail.com**
 
-## **Images**
-
-![coinflow_main](https://github.com/swastik-bose007/CoinFlow/assets/98341839/6ba29f3a-18b8-4be9-a333-c083f5e34dd8)
-
-![coinflow_secondary](https://github.com/swastik-bose007/CoinFlow/assets/98341839/5e5e629a-b047-4faa-a86d-6334c5d6349f)
-
-
-
-# Images
-
-![coinflow_main](https://github.com/swastik-bose007/CoinFlow/assets/98341839/6ba29f3a-18b8-4be9-a333-c083f5e34dd8)
-
-![coinflow_secondary](https://github.com/swastik-bose007/CoinFlow/assets/98341839/5e5e629a-b047-4faa-a86d-6334c5d6349f)
