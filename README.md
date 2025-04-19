@@ -17,7 +17,7 @@ Whether you’re a beginner or an experienced trader, Toid FX provides the essen
 ## **Privacy Policy**
 
 **Effective Date:** February 26, 2025  
-**Last Updated:** February 26, 2025  
+**Last Updated:** April 19, 2025  
 
 Welcome to Toid FX ("we," "our," or "us"). Your privacy is important to us, and this Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our crypto price tracking mobile application (the "App"). By using Toid FX, you agree to the terms outlined in this Privacy Policy.
 
