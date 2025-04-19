@@ -1,4 +1,4 @@
-# ToidFX 🪙
+# ToidFX
 
 **Toid FX – Your Ultimate Crypto Price Tracking Companion**
 
