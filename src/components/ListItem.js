@@ -1,11 +1,5 @@
-// --------------------------------------------------------------------
-// SYSTEM COMPONENTS
-// --------------------------------------------------------------------
 import { View, Text, Image, TouchableOpacity, ScrollView } from "react-native";
 import React from "react";
-// --------------------------------------------------------------------
-// COMPONENT STYLES
-// --------------------------------------------------------------------
 import { marketStyles } from "../styles/MarketStyles";
 import ColorTheme from "../config/ColorTheme";
 
@@ -17,9 +11,6 @@ const ListItem = ({
   logoUrl,
   onPress
 }) => {
-  // -----------------------------------------------------------------------------------
-  //  PRICE COLOR CHANGE
-  // -----------------------------------------------------------------------------------
   const priceChangeColor =
     priceChangePercentage7d > 0 ? ColorTheme.FernGreen : ColorTheme.red;
   return (

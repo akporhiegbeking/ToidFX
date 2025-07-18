@@ -1,6 +1,3 @@
-// --------------------------------------------------------------------
-// SYSTEM COMPONENTS
-// --------------------------------------------------------------------
 import {
   View,
   TouchableWithoutFeedback,
@@ -15,17 +12,9 @@ import {
 import React, { useEffect, useState, useCallback, useMemo, useRef, Suspense } from "react";
 import { responsiveScreenWidth } from "react-native-responsive-dimensions";
 import { BottomSheetModal } from "@gorhom/bottom-sheet";
-
-// --------------------------------------------------------------------
-// COMPONENT STYLES
-// --------------------------------------------------------------------
 import { currencyConverterStyles } from "../styles/CurrencyConverterStyle";
 import { marketStyles } from "../styles/MarketStyles";
 import ColorTheme from "../config/ColorTheme";
-
-// --------------------------------------------------------------------
-// UI COMPONENT
-// --------------------------------------------------------------------
 import ListItem from "../components/ListItem"; // Memoized component
 const ChartComponent = React.lazy(() => import("../components/ChartComponent"));
 
@@ -34,9 +23,6 @@ const ChartComponent = React.lazy(() => import("../components/ChartComponent"));
 // --------------------------------------------------------------------
 import { getMarketData } from "../api/CryptoService";
 
-// --------------------------------------------------------------------
-// HELPER FUNCTIONS
-// --------------------------------------------------------------------
 const debounce = (func, delay) => {
   let timeout;
   return (...args) => {
@@ -45,9 +31,6 @@ const debounce = (func, delay) => {
   };
 };
 
-// --------------------------------------------------------------------
-// COMPONENT
-// --------------------------------------------------------------------
 const MarketScreen = () => {
   const [data, setData] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -125,7 +108,7 @@ const MarketScreen = () => {
         </View>
 
         {/* Search Input */}
-        <View style={[marketStyles.flexCenter, { paddingHorizontal: 20 }]}>
+        <View style={[marketStyles.flexCenter, { paddingHorizontal: 10 }]}>
           <TextInput
             style={currencyConverterStyles.input}
             placeholder="Search coin"

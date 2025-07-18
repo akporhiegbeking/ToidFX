@@ -2,7 +2,7 @@
   "expo": {
     "name": "ToidFX",
     "slug": "ToidFX",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -10,18 +10,24 @@
       "**/*"
     ],
     "ios": {
-      "buildNumber": "1.0.5",
+      "buildNumber": "2.0.0",
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 6,
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.king_ibele.ToidFX"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd51b50a-eef4-4013-b124-f0fad619a2c1"
+      }
     },    
     "plugins": [
       "expo-font"

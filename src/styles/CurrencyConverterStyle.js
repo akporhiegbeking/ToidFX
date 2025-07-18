@@ -43,7 +43,7 @@ export const currencyConverterStyles = StyleSheet.create({
   },
   input: {
     width: responsiveScreenWidth(90),
-    height: responsiveScreenWidth(15),
+    height: responsiveScreenWidth(12),
     borderRadius: responsiveScreenWidth(15),
     backgroundColor: ColorTheme.fadedYellow,
     color: ColorTheme.eerieBlack

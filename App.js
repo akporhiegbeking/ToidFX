@@ -2,10 +2,11 @@
 // SYSTEM COMPONENTS
 // --------------------------------------------------------------------
 import { View, Text } from 'react-native'
-import React,{ useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from "expo-splash-screen";
 import AppNavigation from './src/navigation';
+import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 
 const App = () => {
   // ------------------------------------------------------------
@@ -37,8 +38,10 @@ const App = () => {
   }
 
   return (
-    <AppNavigation />
-  )
+    <BottomSheetModalProvider>
+      <AppNavigation />
+    </BottomSheetModalProvider>
+  );
 }
 
 export default App
